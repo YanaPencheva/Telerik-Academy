@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Registration form</title>				
+</head>
+<body>
+<form name="registration form" method="post" action="#">
+<table border="1" cellpadding="4" style="width: 30%">
+<tbody>
+	<tr>
+		<td align="right"><strong>Last Name</strong></td>
+		<td colspan="2"><input type="text" name="Last name" value="Nakov" style="width: 92%"></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>First Name</strong></td>
+		<td colspan="2"><input type="text" name="first name" value="Svetlin" style="width: 92%"></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Address</strong></td>
+		<td colspan="2">
+		<textarea cols="35" rows="3" resize="none">17 Hristo Botev Str.<br>floor 3, apt. 12			
+		</textarea>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><strong>City</strong></td>
+		<td style="width: 70%"><input type="text" name="city" value="Kaspichan" style="width: 90%"> 
+		<td style="width: 30%"><strong>State</strong>
+		<input type="text" name="state" style="width: 40%"></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Zip/Postal Code</strong></td>
+		<td colspan="2"><input type="text" name="post code" value="9325"
+		 style="width: 20%"></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Country </strong></td>
+		<td colspan="2"><select style="width: 75%">
+			<option value="1" selected="selected">Bulgaria</option>
+			<option value="2">Russia</option>
+		</select></td>		
+	</tr>
+	<tr>
+		<td align="right"><strong>Phone(country code, area code, number)</strong></td>
+		<td colspan="2">(+
+			<input type="tel" name="country code" value="359" 
+			required="required" style="width: 15%"> )
+			<input type="tel" name="phone code" value="88" 
+			required="required" style="width: 15%"> -
+			<input type="tel" name="telnumber" value="8334343" 
+			required="required" style="width: 35%">
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><strong>E-mail</strong></td>
+		<td colspan="2"><input type="email" name="E-mail" value="nakov@kaspican.org" pattern="[^ @]*@[^ @].[^ @]" style="width: 80%"></td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Birth date</strong></td>
+		<td colspan="2"> 
+		Month <input type="text" name="Mont" value="06" 
+		style="width: 6%">  
+		Day <input type="text" name="day" value="14" style="width: 6%"> 
+		Year(4 digit) <input type="text" name="year" value="1980" style="width: 20%">
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Gender</strong></td>
+		<td colspan="2">
+		<select>
+			<option value="male" selected="selected">Male</option>
+			<option value="Female">Female</option>	
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Starting date</strong>
+		</td>
+		<td colspan="2">
+			<input type="radio" name="2006" id="spring">
+			<label for="spring">Spring</label>			
+			<input type="radio" name="2006" id="summer">
+			<label for="summer">Summer 2006</label>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"><strong>Comments/Questions
+		</strong></td>
+		<td colspan="2">
+			<textarea cols="45" rows="4" resize="none">Please send me mor information about the lodgin
+			</textarea>
+		</td>
+	</tr>
+</tbody>
+<tfoot style="background: #E0FFFF">
+	<tr>
+		<td colspan="3" align="center">
+			<input type="Submit" name="SubmitBtn" value="Submit">
+			<input type="Reset" name="resetBtn" value="Clear this Form">
+		</td>
+	</tr>
+</tfoot>
+</table>
+</form>
+</body>
+</html>
