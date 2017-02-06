@@ -1,0 +1,154 @@
+body{
+	font-size: 15px;
+	font-weight: bold;
+	color: #335881;
+}
+button{
+	width: 42px;
+	height: 34px;
+	color: #335881;
+	border: 1px solid #8E9CAE;
+	border-radius: 3px;
+	box-shadow: 0 0 1px 1px white inset;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;	
+}
+ul {
+	padding: 0;
+	margin: 0
+}
+p {
+	margin: 0;
+}
+.CalculatorMain>img{
+	padding-left: 5px;
+}
+.WinBtn{
+	float: right;
+	margin-top: -1px;
+    margin-right: -1px;   
+}
+.menu{
+	text-decoration: underline;
+}
+.BinaryDisplay ul > li{
+    display: inline-block;
+    padding: 3px 10px;
+    width: 11.7%;
+    box-sizing: border-box;
+    text-align: center; 
+    vertical-align: top;
+    font-weight: bold;  
+}
+.BinaryDisplay{
+	color: #335881;
+	line-height: 1em;
+	border: 1px solid #8E9CAE;
+	width: 450px;
+	border-radius: 3px;
+	margin: 7px;
+	margin-top: 1px;
+	text-align: left;
+	padding: 3px 0;
+}
+.BinaryCollor{
+	color: #A4A5A3;
+	text-align: left;
+}
+.ButtonsField{
+	margin-bottom: 8px;
+	position: relative;
+}
+.Buttons{
+	display: inline-block;
+	vertical-align: top;
+}
+.equal {
+	position: absolute;
+	bottom: 1px;
+	right: 10px;
+}
+.RadioButons{
+	border: 1px solid #8E9CAE;
+	border-radius: 3px;
+	width: 80px;
+	height: 99px;
+	margin: 3px;
+	margin-left: 6px;
+	color: #335881;
+	padding-top: 12px;
+}
+.simple-background{
+	background: rgb(251,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(251,255,255,1) 0%, rgba(240,246,251,1) 4%, rgba(227,234,243,1) 46%, rgba(215,225,238,1) 50%, rgba(213,224,237,1) 54%, rgba(212,224,238,1) 96%, rgba(240,246,251,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(251,255,255,1) 0%,rgba(240,246,251,1) 4%,rgba(227,234,243,1) 46%,rgba(215,225,238,1) 50%,rgba(213,224,237,1) 54%,rgba(212,224,238,1) 96%,rgba(240,246,251,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(251,255,255,1) 0%,rgba(240,246,251,1) 4%,rgba(227,234,243,1) 46%,rgba(215,225,238,1) 50%,rgba(213,224,237,1) 54%,rgba(212,224,238,1) 96%,rgba(240,246,251,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.Number{
+	background: rgb(237,244,252); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(237,244,252,1) 0%, rgba(237,244,252,1) 14%, rgba(233,240,248,1) 15%, rgba(243,245,246,1) 18%, rgba(245,248,255,1) 20%, rgba(238,244,252,1) 21%, rgba(238,244,252,1) 30%, rgba(252,253,255,1) 76%, rgba(255,255,255,1) 100%, rgba(203,209,216,1) 100%, rgba(157,171,188,1) 100%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(237,244,252,1) 0%,rgba(237,244,252,1) 14%,rgba(233,240,248,1) 15%,rgba(243,245,246,1) 18%,rgba(245,248,255,1) 20%,rgba(238,244,252,1) 21%,rgba(238,244,252,1) 30%,rgba(252,253,255,1) 76%,rgba(255,255,255,1) 100%,rgba(203,209,216,1) 100%,rgba(157,171,188,1) 100%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(237,244,252,1) 0%,rgba(237,244,252,1) 14%,rgba(233,240,248,1) 15%,rgba(243,245,246,1) 18%,rgba(245,248,255,1) 20%,rgba(238,244,252,1) 21%,rgba(238,244,252,1) 30%,rgba(252,253,255,1) 76%,rgba(255,255,255,1) 100%,rgba(203,209,216,1) 100%,rgba(157,171,188,1) 100%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.keyboard{
+	background: #D9E4F1;
+}
+.display{
+	background: rgb(237,244,252); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(237,244,252,1) 0%, rgba(237,244,252,1) 14%, rgba(233,240,248,1) 15%, rgba(243,245,246,1) 18%, rgba(245,248,255,1) 20%, rgba(238,244,252,1) 21%, rgba(238,244,252,1) 30%, rgba(252,253,255,1) 76%, rgba(255,255,255,1) 100%, rgba(203,209,216,1) 100%, rgba(157,171,188,1) 100%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(237,244,252,1) 0%,rgba(237,244,252,1) 14%,rgba(233,240,248,1) 15%,rgba(243,245,246,1) 18%,rgba(245,248,255,1) 20%,rgba(238,244,252,1) 21%,rgba(238,244,252,1) 30%,rgba(252,253,255,1) 76%,rgba(255,255,255,1) 100%,rgba(203,209,216,1) 100%,rgba(157,171,188,1) 100%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(237,244,252,1) 0%,rgba(237,244,252,1) 14%,rgba(233,240,248,1) 15%,rgba(243,245,246,1) 18%,rgba(245,248,255,1) 20%,rgba(238,244,252,1) 21%,rgba(238,244,252,1) 30%,rgba(252,253,255,1) 76%,rgba(255,255,255,1) 100%,rgba(203,209,216,1) 100%,rgba(157,171,188,1) 100%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-size: 24px;	
+	border: 1px solid #8E9CAE;
+	border-radius: 3px;
+	width: 450px;
+	height:45px;
+	margin-right: 7px;
+	margin-left: 7px;
+	margin-top: 10px;
+	margin-bottom: 5px;	
+	text-align: right;	
+}
+.CalculatorMain{
+	background: rgb(219,239,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(219,239,255,1) 0%, rgba(212,232,253,1) 0%, rgba(212,232,252,1) 14%, rgba(220,237,253,1) 20%, rgba(241,248,254,1) 28%, rgba(240,247,253,1) 29%, rgba(205,228,252,1) 29%, rgba(197,224,252,1) 29%, rgba(187,219,251,1) 37%, rgba(185,218,251,1) 44%, rgba(177,210,244,1) 51%, rgba(178,212,246,1) 81%, rgba(177,210,244,1) 93%, rgba(174,207,242,1) 98%, rgba(180,213,247,1) 98%, rgba(198,223,248,1) 98%, rgba(208,227,247,1) 99%, rgba(234,242,251,1) 99%, rgba(253,254,254,1) 99%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(219,239,255,1) 0%,rgba(212,232,253,1) 0%,rgba(212,232,252,1) 14%,rgba(220,237,253,1) 20%,rgba(241,248,254,1) 28%,rgba(240,247,253,1) 29%,rgba(205,228,252,1) 29%,rgba(197,224,252,1) 29%,rgba(187,219,251,1) 37%,rgba(185,218,251,1) 44%,rgba(177,210,244,1) 51%,rgba(178,212,246,1) 81%,rgba(177,210,244,1) 93%,rgba(174,207,242,1) 98%,rgba(180,213,247,1) 98%,rgba(198,223,248,1) 98%,rgba(208,227,247,1) 99%,rgba(234,242,251,1) 99%,rgba(253,254,254,1) 99%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(219,239,255,1) 0%,rgba(212,232,253,1) 0%,rgba(212,232,252,1) 14%,rgba(220,237,253,1) 20%,rgba(241,248,254,1) 28%,rgba(240,247,253,1) 29%,rgba(205,228,252,1) 29%,rgba(197,224,252,1) 29%,rgba(187,219,251,1) 37%,rgba(185,218,251,1) 44%,rgba(177,210,244,1) 51%,rgba(178,212,246,1) 81%,rgba(177,210,244,1) 93%,rgba(174,207,242,1) 98%,rgba(180,213,247,1) 98%,rgba(198,223,248,1) 98%,rgba(208,227,247,1) 99%,rgba(234,242,251,1) 99%,rgba(253,254,254,1) 99%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+	border: 1px solid #BFDDFB;
+	border-radius: 5px;
+	width: 480px;
+	font-weight: normal;
+	color: black;
+}	
+.CalculatorMenu{
+	background: rgb(245,248,252); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(245,248,252,1) 0%, rgba(237,246,255,1) 0%, rgba(218,227,248,1) 0%, rgba(232,242,255,1) 0%, rgba(239,242,249,1) 0%, rgba(211,219,242,1) 2%, rgba(213,220,239,1) 2%, rgba(221,226,242,1) 3%, rgba(235,240,255,1) 4%, rgba(226,231,247,1) 4%, rgba(207,213,229,1) 4%, rgba(193,197,209,1) 5%, rgba(243,244,244,1) 5%, rgba(237,244,252,1) 5%, rgba(217,228,241,1) 28%, rgba(217,228,241,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(245,248,252,1) 0%,rgba(237,246,255,1) 0%,rgba(218,227,248,1) 0%,rgba(232,242,255,1) 0%,rgba(239,242,249,1) 0%,rgba(211,219,242,1) 2%,rgba(213,220,239,1) 2%,rgba(221,226,242,1) 3%,rgba(235,240,255,1) 4%,rgba(226,231,247,1) 4%,rgba(207,213,229,1) 4%,rgba(193,197,209,1) 5%,rgba(243,244,244,1) 5%,rgba(237,244,252,1) 5%,rgba(217,228,241,1) 28%,rgba(217,228,241,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(245,248,252,1) 0%,rgba(237,246,255,1) 0%,rgba(218,227,248,1) 0%,rgba(232,242,255,1) 0%,rgba(239,242,249,1) 0%,rgba(211,219,242,1) 2%,rgba(213,220,239,1) 2%,rgba(221,226,242,1) 3%,rgba(235,240,255,1) 4%,rgba(226,231,247,1) 4%,rgba(207,213,229,1) 4%,rgba(193,197,209,1) 5%,rgba(243,244,244,1) 5%,rgba(237,244,252,1) 5%,rgba(217,228,241,1) 28%,rgba(217,228,241,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	border: 1px solid #89939D;
+	border-radius: 3px;
+	font-weight: normal;
+	color: black;
+	width: 470px;
+	margin: 3px;
+}
+.zero{
+	width: 88px;
+	font-size: 18px;
+	height: 34px;
+}
+.bigger{
+	font-size: 18px;
+	width: 42px;
+	height: 34px;
+}
+.Result{
+	height: 74px;
+}
+#special:hover {
+	background: rgb(254,243,231); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(254,243,231,1) 0%, rgba(254,239,224,1) 4%, rgba(253,228,202,1) 40%, rgba(252,224,187,1) 44%, rgba(251,207,114,1) 48%, rgba(251,216,130,1) 72%, rgba(251,232,138,1) 92%, rgba(252,240,160,1) 96%, rgba(255,252,231,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(254,243,231,1) 0%,rgba(254,239,224,1) 4%,rgba(253,228,202,1) 40%,rgba(252,224,187,1) 44%,rgba(251,207,114,1) 48%,rgba(251,216,130,1) 72%,rgba(251,232,138,1) 92%,rgba(252,240,160,1) 96%,rgba(255,252,231,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(254,243,231,1) 0%,rgba(254,239,224,1) 4%,rgba(253,228,202,1) 40%,rgba(252,224,187,1) 44%,rgba(251,207,114,1) 48%,rgba(251,216,130,1) 72%,rgba(251,232,138,1) 92%,rgba(252,240,160,1) 96%,rgba(255,252,231,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}

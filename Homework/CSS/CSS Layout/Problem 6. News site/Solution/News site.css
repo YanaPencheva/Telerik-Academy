@@ -1,0 +1,63 @@
+body{
+	font-family:"Trebuchet MS", Tahoma, Arial, "Courier New", Serif;
+    font-weight: normal;
+    font-size: 22px;
+    background-color: #1E3741;    
+}
+nav{
+	width: 1039px;
+}
+nav>a{
+	display: inline-block;
+	background-color: #4B5F67;
+	color: #6F94A8;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	margin-bottom: 5px;
+	width: 15%;
+}
+main{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+video{
+	width: 73%;
+	height: 101%;
+}
+.news{
+	background-color: #1E3741;
+}
+.sport{
+	text-decoration: underline;
+}
+.menu{
+	width: 50%;
+	padding: 10px 0 10px 29px;
+	margin-top: 40px;
+}
+.menu>div{
+	border-bottom: 1px solid #354A54;
+	padding: 5px
+}
+.menu: last-child{
+	border-bottom: none;
+}
+.menu>div:hover{
+	background-color: #008080   ;
+}
+.menu>div>a{
+	display: inline-block;
+	color: #98A7AF;
+	text-decoration: none;
+	padding: 10px 2px;
+	width: 460px;
+    font-size: 28px;
+}
+.subMenu{
+	border: none;
+}
+.video{
+	background-color: #1E3741;
+}

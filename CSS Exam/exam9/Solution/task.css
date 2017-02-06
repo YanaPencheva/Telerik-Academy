@@ -1,0 +1,71 @@
+body{
+	background-color: #E7E9EC;
+}
+a{
+	text-decoration: none;
+	color: #369FD3;
+}
+h4{
+	width: 300px;
+	color: #6B6B6B;
+	margin-bottom: 5px;
+}
+.icon-image img{
+	position: absolute;
+	left: 5px;
+}
+.content-article{
+	margin-left: 90px;
+	background-color: #FFFFFF;
+	width: 640px;
+}
+.timestamp{
+	position: absolute;
+	top: 10px;
+	left: 690px;
+}
+.headline{
+	color: #928C95;
+	font-weight: normal;
+	height: 14px;
+	padding-top: 15px;
+}
+.header,.side-article{
+	margin-left: 20px;	
+}
+.side-article{
+	width: 600px;
+	border: 1px solid #E7E9EC; 
+}
+.content-image img{
+	width: 230px;
+}
+.content-description{
+	position: absolute;
+	top: 49px;
+	right: 875px;
+}
+.snippet-container{
+	width: 355px;
+	color: #6B6B6B
+}
+.actions{	
+	list-style: none;
+	padding-left: 23px;
+	display: inline-block;
+	width: 189px;
+}
+.actions>li{
+	display: inline-block;
+	margin-right: 9px;
+	font-size: 18px;
+}
+.content-article .likes:before{
+	content: url("imgs/likes.png");
+}
+.content-article .comments:before{
+	content: url("imgs/comments.png");
+}
+#wrapper{	
+	position: relative;
+}

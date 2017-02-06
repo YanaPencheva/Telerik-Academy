@@ -1,0 +1,5 @@
+Problem 5. Laptop store
+
+Create the following HTML 5 Page
+
+Note: Do it without tables

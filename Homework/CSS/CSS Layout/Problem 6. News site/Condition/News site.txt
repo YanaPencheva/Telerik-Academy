@@ -1,0 +1,5 @@
+Problem 6. News site
+
+Create the following Web page using HTML and external CSS.
+
+Note: Using tables, inline styles and deprecated tags is not allowed!

@@ -1,0 +1,110 @@
+body {
+  font-family: Roboto;
+  font-size: 16px;  
+}
+ol{
+	list-style: none;
+	padding-left: 0;
+	height: 215px;	
+}
+h3{
+	margin: 17px 0 0 10px;
+	display: inline-block;
+	width: 115%
+}
+h3 a{
+	text-decoration: none;
+	color: white;
+}
+h3 a:hover{
+	text-decoration: underline;
+}
+h4,h5{
+	margin: 3px 10px;
+}
+p{
+	margin: 7px 0 0 10px;
+	padding-bottom: 12px;
+	
+	display: inline-block;
+}
+p a{
+	text-decoration: none;
+	color: #A2A5A3;
+}
+ol{
+	margin: 8px 0;
+}
+ol li{
+	margin: 0;
+	    height: 63px;
+}
+ol li div img{
+	float: left;
+	margin-top:9px;
+	width: 79px;
+}
+.playlist-info{
+	position: relative;
+}
+.playlist-info .fa-cog{	
+	content: url("imgs/settings.png");
+	position: absolute;
+	top: 25px;
+    left: 680px;
+}
+.title-playlist {
+	width: 112%;
+	margin-left: 8px;
+	border-bottom: 3px solid #313131;
+}
+.playlist{
+	background-color: #222222;
+	width: 115%;
+	height: 185px;	
+}
+.playlist div{
+	display: inline-block;
+}
+.controls{
+	margin-top: 8px;
+}
+.controls .fa-repeat{
+	content: url(imgs/unshufing.png);
+	margin-left: 6px;
+}
+.controls .fa-random{
+	content: url(imgs/shufing.png);
+}
+.active-clip div span{
+	content: url(imgs/play.png);
+	float: left;
+	margin: 21px 10px 30px;
+}
+.active-clip{
+	background-color: #3A3A3A;
+	margin:0;
+}
+.inactive-clip:hover{
+	background-color: #525252;
+}
+.inactive-clip div span{
+	float: left;
+	margin: 21px 10px 5px;
+}
+#wrapper{
+	background-color: #1A1A1A;
+	color: #A2A5A3;
+	position: relative;
+}
+#side-play{
+	display: inline-block;
+	width: 40%;
+	height: 349px;
+	position: absolute;
+	bottom: 145px;
+    right: 96px;
+}
+#play{
+	width: 54.5%;
+}

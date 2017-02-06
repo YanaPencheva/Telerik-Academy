@@ -1,0 +1,4 @@
+Problem 3. Notebook store
+
+Create the following HTML Page:
+Hint: Use Fieldsets and Nested tables

@@ -1,0 +1,36 @@
+body{
+	font-size: 15px;
+	font-family: Calibri;
+}
+table,th,td{
+	 border: 1px #C0BEA4 solid;
+	 border-collapse: collapse;
+	 padding: 4px;
+}
+th{
+	background: #52B506;
+	text-align: left;
+	color: #ffffff;
+	font-weight: normal;	
+}
+tr:nth-child(2n){
+	background: #ECECD8;
+}
+td{
+	padding-right: 40px;
+}
+.germany:before{
+	content: url("imgs/Germany.png");
+	vertical-align: -25%;
+    padding-right: 0.5em;
+}
+.mexico:before{
+	content: url("imgs/mexico.png");
+	vertical-align: -25%;
+    padding-right: 0.5em;
+}
+.uk:before{
+	content: url("imgs/uk.png");
+	vertical-align: -25%;
+    padding-right: 0.5em;
+}

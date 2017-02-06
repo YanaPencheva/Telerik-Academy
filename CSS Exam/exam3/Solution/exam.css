@@ -1,0 +1,45 @@
+input{
+	display: none;
+}
+label{
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+}
+.container{
+	width: 500px;
+	font-size: 15px;
+	color: #CCEFF9;
+	font-family: "Trebuchet MS", Tahoma, Arial, "Courier New", Serif;
+	background-color: #205D99;
+}
+.avenger{
+	list-style: none;
+	padding-left: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.avenger>li{
+	border-bottom: 3px solid #B4EFF9;
+}
+.avenger>li>label: hover{
+	cursor: pointer; 
+}
+.avenger input:checked +label +.list{
+	display: block;
+}
+.list{
+	display: none;
+}
+.list>img{
+	width: 192px;
+    height: 123px;
+    float: left;
+    margin: 0 15px 14px 10px;
+    border: 14px solid #79AEE3;
+    border-radius: 15px;
+}
+.list>p{
+	margin-right: 10px;
+	margin-left: 5px;
+}

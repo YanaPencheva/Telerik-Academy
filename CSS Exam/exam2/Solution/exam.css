@@ -1,0 +1,69 @@
+.superheroes{
+	margin: 0 auto;
+	padding: 0;
+	width: 1020px;
+	display: flex;
+}
+.superheroes>li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	padding: 0;
+}
+.superheroes>li:hover img{
+  height: 230px;
+}
+.superheroes>li:hover a{
+	display: block;
+	width: 100%;
+}
+.superheroes>li>:hover .hero-header{
+	opacity: 1;
+	top:0;	
+}
+.superheroes li img {
+  border-radius: 15px;
+ }
+#root{
+	position: relative;
+}
+.superheroes>li>.hero-header{
+	font-size: 1.2em;
+	position: absolute;
+	top: 0;
+	padding: 10px 0;
+	color: white;
+	background-color: black;
+	opacity: 0.3;
+	width: 100%;
+	height: 30px;
+	border-top-right-radius: 17px;
+	border-top-left-radius: 17px;
+}
+.superheroes>li>a{
+	display: none;
+	background-color: #636363;
+	color: white;
+	width: 199px;
+	height: 27px;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 6px;
+}
+#site-header{
+	text-align: center;
+	background-color: #CCCCCC;
+	height: 65px;
+	width: 1000px;
+	color: white;
+	text-shadow: 3px 2px 1px #000;
+	padding-top: 15px;
+	margin: 20px 281px 35px;
+}
+#site-header:before{
+	content: url(imgs/logo.png);
+	vertical-align: -12px;
+	padding: 10px;
+	background-color: #CCCCCC;
+}
