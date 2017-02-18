@@ -40,6 +40,29 @@ span{
     font-weight: bold;
     display: inline-block;	
 }
+.wrapper{
+	width: 30%;
+	height: 930px;
+	margin-left: 520px;
+	background-color: #ffffff;
+}
+.main-info{
+	margin-bottom: 8px;
+    margin-right: 12px;
+    padding-bottom: 20px;
+	border-bottom: 2px solid #A68F87;
+}
+.label{
+	display: inline-block;
+	text-align: center;
+	width: 55px;
+    height: 22px;
+   	background-color: #6CC644;
+   	border-radius: 5px;
+   	font-size: 17px;
+   	font-weight: bold;
+   	padding: 6px 2px 3px;
+}
 .location:after{
     content: url("imgs/location.png");
     vertical-align: -10px;
@@ -52,40 +75,17 @@ span{
 	content: url("imgs/clock.png");
     vertical-align: -3px;
 }
-#wrapper{
-	width: 30%;
-	height: 930px;
-	margin-left: 520px;
-	background-color: #ffffff;
-}
-#main-info{
-	margin-bottom: 8px;
-    margin-right: 12px;
-    padding-bottom: 20px;
-	border-bottom: 2px solid #A68F87;
-}
-#label{
-	display: inline-block;
-	text-align: center;
-	width: 55px;
-    height: 22px;
-   	background-color: #6CC644;
-   	border-radius: 5px;
-   	font-size: 17px;
-   	font-weight: bold;
-   	padding: 6px 2px 3px;
-}
-#joined{
+.joined{
 	padding-bottom: 10px;
 	margin-right: 12px;	
 	border-bottom: 2px solid #A68F87;
 }
-#git-info{
+.git-info{
 	padding: 10px 0;
 	margin:0 12px 0 0;	
 	border-bottom: 2px solid #A68F87;
 }
-#git-info>div{
+.git-info>div{
 	display: block;
     color: #A68F87;
     text-align: center;
@@ -93,12 +93,11 @@ span{
     width: 33.3%;
     float: left;
 }
-#git-info:after {
+.git-info:after {
 	content: "";
 	display: block;
 	clear: both;
 }
-#git-info span {
+.git-info span {
 	display: block
 }
-

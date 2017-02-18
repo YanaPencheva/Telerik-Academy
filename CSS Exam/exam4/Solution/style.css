@@ -1,14 +1,28 @@
-.skills{
-	font-size: 1.4em;
-	list-style: none;
-	margin-top: 73px;
-}
-.skills>li{
-	margin: 30px;
-	font-size: 1.1em;
+span{
+	font-weight: bold;
+	font-size: 1.3em;
+	border-left: 3px solid black;
+	border-top:3px solid black;
+	border-bottom: 3px solid black;
+	border-top-left-radius: 15px;
+	padding:10px;
 }
 .avengers{
 	list-style: none;;
+}
+.avenger{
+	display: inline;
+}
+.avenger:hover .preview{
+	display: block;
+}
+.avenger:hover span{
+	background-color:  #CCCCCC;
+	text-decoration: underline;
+	border-bottom: 3px solid white;
+}
+.avenger:last-of-type span{
+	border-right: 3px solid black;
 }
 .preview{
 	width: 717px;
@@ -25,28 +39,14 @@
 	border-radius: 10px;
 	margin: 20px 40px 20px 10px;
 }
-.name{
-	font-weight: bold;
-	font-size: 1.3em;
-	border-left: 3px solid black;
-	border-top:3px solid black;
-	border-bottom: 3px solid black;
-	border-top-left-radius: 15px;
-	padding:10px;
+.skills{
+	font-size: 1.4em;
+	list-style: none;
+	margin-top: 73px;
 }
-.avenger{
-	display: inline;
-}
-.avenger:hover .preview{
-	display: block;
-}
-.avenger:hover .name{
-	background-color:  #CCCCCC;
-	text-decoration: underline;
-	border-bottom: 3px solid white;
-}
-.avenger:last-of-type span{
-	border-right: 3px solid black;
+.skills>li{
+	margin: 30px;
+	font-size: 1.1em;
 }
 #root {
   width: 960px;

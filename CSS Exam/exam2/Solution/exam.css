@@ -1,34 +1,40 @@
-.superheroes{
+h1{
+	text-align: center;
+	background-color: #CCCCCC;
+	height: 65px;
+	width: 1015px;
+	color: white;
+	text-shadow: 3px 2px 1px #000;
+	padding-top: 15px;
+	margin: 20px 281px 35px;
+}
+h1:before{
+	content: url(imgs/logo.png);
+	vertical-align: -12px;
+	padding: 10px;
+	background-color: #CCCCCC;
+}
+div{
+	position: relative;
+}
+ul{
 	margin: 0 auto;
 	padding: 0;
 	width: 1020px;
 	display: flex;
 }
-.superheroes>li{
+ul>li{
 	list-style: none;
 	display: inline-block;
 	position: relative;
 	text-align: center;
 	padding: 0;
+	margin: 2px;
 }
-.superheroes>li:hover img{
-  height: 230px;
-}
-.superheroes>li:hover a{
-	display: block;
-	width: 100%;
-}
-.superheroes>li>:hover .hero-header{
-	opacity: 1;
-	top:0;	
-}
-.superheroes li img {
+ul>li>img {
   border-radius: 15px;
- }
-#root{
-	position: relative;
 }
-.superheroes>li>.hero-header{
+ul>li>strong{
 	font-size: 1.2em;
 	position: absolute;
 	top: 0;
@@ -41,7 +47,7 @@
 	border-top-right-radius: 17px;
 	border-top-left-radius: 17px;
 }
-.superheroes>li>a{
+ul>li>a{
 	display: none;
 	background-color: #636363;
 	color: white;
@@ -51,19 +57,14 @@
 	text-decoration: none;
 	padding-top: 6px;
 }
-#site-header{
-	text-align: center;
-	background-color: #CCCCCC;
-	height: 65px;
-	width: 1000px;
-	color: white;
-	text-shadow: 3px 2px 1px #000;
-	padding-top: 15px;
-	margin: 20px 281px 35px;
+ul>li:hover img{
+  height: 230px;
 }
-#site-header:before{
-	content: url(imgs/logo.png);
-	vertical-align: -12px;
-	padding: 10px;
-	background-color: #CCCCCC;
+ul>li:hover a{
+	display: block;
+	width: 100%;
+}
+ul>li>:hover strong{
+	opacity: 1;
+	top:0;	
 }
